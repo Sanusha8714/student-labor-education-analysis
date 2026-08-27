@@ -1,4 +1,4 @@
-# student-labor-education-analysis
+# STUDENTS LABOR EDUCATION ANALYSIS
 This project analyzes a dataset of 4,000 students that combines traditional academic indicators (GPA, attendance) with modern "edge learning" indicators — labor/practical activity, AI and IoT device engagement, digital platform usage, and behavioral/soft-skill scores. The goal is to understand how a student's academic performance relates to their practical involvement, technology engagement, and overall behavior, and to use these patterns to support better monitoring and intervention strategies in an academic institution.
 ## OBJECTIVES
 Understand a dataset blending academic, labor, and technology-engagement data.
@@ -10,9 +10,9 @@ Summarize findings into insights, recommendations, and suggestions.
    1. Data Collection
    2. Data Transformation & EDA
    3. Analysis Report
-## Data Collection
+## DATA COLLECTION
 Datasets were searched for on Kaggle, Google Dataset Search, and other open data repositories, looking for one combining academic performance, labor engagement, and technology usage. Candidates were evaluated on row count, column count, missing values, duplicates, and relevance to the project's focus. Since few datasets matched this exact combination, the Edge Labor Education Dataset (4,000 rows, 30 columns) was downloaded and confirmed to have no missing values or duplicates.
-## Data Transformation & EXPLORATION
+## DATA TRANSFORMATION & EXPLORATION
 ##### The main purpose of EDA is to understand:
 - Distribution of variables
 - Frequency of categories
@@ -56,7 +56,7 @@ correlation heatmap
 - Flag low-engagement students earlier using Personalized Intervention data.
 - Apply multivariate/predictive modeling for deeper insight.
 - Track AI/IoT engagement trends over time.
-## Tech Stack
+## TECH STACK
 -Python 
 -pandas 
 -numpy 
