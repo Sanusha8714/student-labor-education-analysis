@@ -22,13 +22,13 @@ Datasets were searched for on Kaggle, Google Dataset Search, and other open data
 - Relationships between variables
 - Possible outliers
 - Important patterns and trends
-### Cleaning method:
+#### Cleaning method:
 The dataset was inspected using structure and summary checks (`info()`, `dtypes`, `describe()`, `isnull().sum()`, `duplicated().sum()`) to verify data types, statistics, missing values, and duplicate rows.
-### Main things checked:
+#### Main things checked:
 Column data types, value ranges/statistics of numeric fields, presence of nulls, and presence of duplicate records.
-### Main exploration focus:
+#### Main exploration focus:
 Distribution of individual variables (age, department, gender, GPA, attendance, performance category, engagement level, monitoring status) and relationships between key variable pairs (attendance vs. GPA, AI engagement vs. practical skill, labor activity vs. task completion, gender/department vs. performance), along with an overall correlation check among numeric features.
-### Changes made:
+#### Changes made:
 No missing values or duplicates were found, so no imputation, row removal, or transformation was required — the dataset was already clean and analysis-ready.
 ## TOOLS & TECHNOLOGIES
 -Python 
