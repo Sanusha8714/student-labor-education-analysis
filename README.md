@@ -30,6 +30,13 @@ Column data types, value ranges/statistics of numeric fields, presence of nulls,
 Distribution of individual variables (age, department, gender, GPA, attendance, performance category, engagement level, monitoring status) and relationships between key variable pairs (attendance vs. GPA, AI engagement vs. practical skill, labor activity vs. task completion, gender/department vs. performance), along with an overall correlation check among numeric features.
 ### Changes made:
 No missing values or duplicates were found, so no imputation, row removal, or transformation was required — the dataset was already clean and analysis-ready.
+## TOOLS & TECHNOLOGIES
+-Python 
+-pandas 
+-numpy 
+-matplotlib
+-seaborn 
+-Jupyter Notebook
 ## ANALYSIS REPORT
 #### Analysis:
 The analysis will consist of:
@@ -56,10 +63,3 @@ correlation heatmap
 - Flag low-engagement students earlier using Personalized Intervention data.
 - Apply multivariate/predictive modeling for deeper insight.
 - Track AI/IoT engagement trends over time.
-## TECH STACK
--Python 
--pandas 
--numpy 
--matplotlib
--seaborn 
--Jupyter Notebook
