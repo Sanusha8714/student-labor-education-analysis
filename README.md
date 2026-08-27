@@ -8,7 +8,7 @@ Examine how GPA relates to attendance, labor activity, AI engagement, gender, an
 Summarize findings into insights, recommendations, and suggestions.
 ## DIFFERENT PHASES
    1. Data Collection
-   2. Data Transformation & EDA
+   2. Data Transformation & Exploration
    3. Analysis Report
 ## DATA COLLECTION
 Datasets were searched for on Kaggle, Google Dataset Search, and other open data repositories, looking for one combining academic performance, labor engagement, and technology usage. Candidates were evaluated on row count, column count, missing values, duplicates, and relevance to the project's focus. Since few datasets matched this exact combination, the Edge Labor Education Dataset (4,000 rows, 30 columns) was downloaded and confirmed to have no missing values or duplicates.
