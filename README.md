@@ -13,6 +13,15 @@ Summarize findings into insights, recommendations, and suggestions.
 ## Data Collection
 Datasets were searched for on Kaggle, Google Dataset Search, and other open data repositories, looking for one combining academic performance, labor engagement, and technology usage. Candidates were evaluated on row count, column count, missing values, duplicates, and relevance to the project's focus. Since few datasets matched this exact combination, the Edge Labor Education Dataset (4,000 rows, 30 columns) was downloaded and confirmed to have no missing values or duplicates.
 ## Data Transformation & EXPLORATION
+##### The main purpose of EDA is to understand:
+- Distribution of variables
+- Frequency of categories
+- Average values
+- Minimum and maximum values
+- Variation in data
+- Relationships between variables
+- Possible outliers
+- Important patterns and trends
 ### Cleaning method:
 The dataset was inspected using structure and summary checks (`info()`, `dtypes`, `describe()`, `isnull().sum()`, `duplicated().sum()`) to verify data types, statistics, missing values, and duplicate rows.
 ### Main things checked:
@@ -22,6 +31,16 @@ Distribution of individual variables (age, department, gender, GPA, attendance, 
 ### Changes made:
 No missing values or duplicates were found, so no imputation, row removal, or transformation was required — the dataset was already clean and analysis-ready.
 ## ANALYSIS REPORT
+#### Analysis:
+The analysis will consist of:
+- summary statistics
+- univariate analysis
+- bivariate analysis
+- histograms
+- boxplots
+- count plots
+- scatter plots
+correlation heatmap
 #### Conclusion:
 - Demographics are fairly uniform; performance and engagement levels vary.
 - Attendance and gender don't strongly determine GPA.
